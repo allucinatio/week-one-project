@@ -1,0 +1,363 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*Nav*/
+
+nav {
+  background: #FFFFFF;
+  font: 20px 'Roboto';
+  text-transform: uppercase;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  top: 0px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+  background-image: url("images/optimized/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-position: 15px 10px;
+  background-size: auto 70%;
+}
+
+.nav-row {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 70px;
+  width: 35vw;
+  margin: auto;
+}
+
+.nav-row li{
+  margin: 0 5px;
+}
+
+nav a{
+  color: #2B2F26;
+}
+
+nav a:hover{
+  color: #CD5D67;
+  transition-duration: 500ms;
+}
+
+.active-link {
+  color: #968772;
+}
+
+
+
+/*Body & text styles*/
+
+body {
+  background: #F2F1E8;
+}
+
+header {
+  /*position: relative;*/
+  padding-top: 70px;
+}
+
+/*main {
+  position: relative;
+}*/
+
+.page-header {
+  margin: 30px 0 30px 0;
+}
+
+.main-heading {
+  font: 400 68px 'Merriweather';
+  text-align: center;
+  color: #131511;
+  padding: 30px 0 30px 0;
+}
+
+.sub-heading {
+  font: 300 36px 'Merriweather';
+  text-align: center;
+  color: #131511;
+  margin-top: -30px;
+}
+
+.p-heading {
+  font: 300 30px 'Merriweather';
+  color: #131511;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.signup-head .p-heading{
+  margin-bottom: 10px;
+}
+
+.image-header {
+  font: 72px 'Merriweather';
+  color: white;
+  text-align: center;
+}
+
+.body-text {
+  width: 800px;
+  font: 18px 'Merriweather';
+  color: #131511;
+  line-height: 36px;
+  margin: auto;
+}
+
+.body-text a{
+  color: #968772;
+}
+
+.body-text a:hover{
+  color: #967343;
+  transition-delay: 500ms;
+}
+
+.label {
+  background: #2B2F26;
+  color: #F2F1E8;
+  font: 20px 'Lora';
+  padding:14px;
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+}
+
+blockquote {
+  font: italic 18px 'Merriweather';
+  border-left: 1px solid #968772;
+  padding-left: 30px;
+  line-height: 36px;
+  margin: 30px 0 30px 0;
+
+}
+
+
+/*Image-related*/
+
+.gallery-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 20px 0 20px;
+}
+
+.gallery-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 20px 10px 20px;
+}
+
+.item1 {
+  width: 225px;
+  height: 375px;
+  flex-grow: 0;
+  margin: 7px;
+  position: relative;
+  background-size: cover;
+
+}
+
+.item2 {
+  width: 225px;
+  height: 250px;
+  flex-grow: 0;
+  margin: 7px;
+  position: relative;
+  background-size: cover;
+}
+
+#i1 {
+  background-image: url("images/optimized/product-1.jpg");
+  flex-grow: 2;
+  
+}
+
+#i2 {
+  background-image: url("images/optimized/product-2.jpg");
+}
+
+#i3 {
+  background-image: url("images/optimized/product-3.jpg");
+}
+
+#i4 {
+  background-image: url("images/optimized/product-4.jpg");
+}
+
+#i5 {
+  background-image: url("images/optimized/product-5.jpg");
+}
+
+#i6 {
+  background-image: url("images/optimized/product-6.jpg");
+  flex-grow: 2;
+}
+
+#i7 {
+  background-image: url("images/optimized/product-7.jpg");
+}
+
+.image-feature {
+  height: 300px;
+  background-image: url('images/optimized/background-3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+
+}
+
+.text-image-2 {
+  display: flex;
+}
+
+.aside2 {
+  font: 14px 'Merriweather';
+  line-height: 24px;
+  width: 20%;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.aside2 img{
+  max-width: 175px;
+  margin-bottom: 7px;
+}
+
+.text-image-1 img{
+  max-width: 150px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.signup-bg {
+  background-image: url('images/optimized/background-2.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Form */
+
+.signup-body {
+  width: 50vw;
+  background-color: white;
+  padding: 30px;
+}
+
+.signup-body .p-heading{
+  text-align: center;
+  font-weight: 300;
+}
+
+.signup-head .body-text{
+  text-align: center;
+  margin: 20px 0 20px 0;
+  width: auto;
+  font: 20px 'Merriweather';
+  font-weight: 400;
+  color: #131511;
+}
+
+#nameInput, #emailInput {
+  width: 45vw;
+  margin-top: 30px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  font: 18px 'Roboto';
+  color: gray;
+}
+
+.form input{
+  border: none;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #968772;
+}
+
+.form input:focus{
+  border-bottom: solid 2px #967343;
+  transition-delay: 500ms;
+}
+
+.submit-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button a{
+  background-color: #968772;
+  padding: 15px 30px 15px 30px;
+  font: 20px 'Roboto';
+  text-decoration: none;
+  color: #F2F1E8;
+}
+
+.submit-button a:hover{
+  background-color: #967343;
+  color: #FFFFFF;
+  transition-delay: 500ms;
+}
+
+
+/*Table*/
+
+table {
+  border-collapse: collapse;
+  margin: 20px 0 30px 0;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F2EADC;
+}
+
+thead th{
+  background: none;
+  font: 18px 'Merriweather';
+  font-weight: normal;
+}
+
+
+
+/*Footer*/
+
+footer {
+  background: #2B2F26;
+  color: #F2F1E8;
+  font: 18px 'Merriweather';
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 40px;
+}
