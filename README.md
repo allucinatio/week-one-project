@@ -1,8 +1,8 @@
-#Bent Creek Ceramics  
+# Bent Creek Ceramics  
 
 Your objective is to develop a website according to the following specifications.
 
-####Step 1: Use bash in your terminal to do the following:
+#### Step 1: Use bash in your terminal to do the following:
 
 * Create a new project folder titled week-one-project.
 * Inside week-one-project, create 3 new files:
@@ -14,7 +14,7 @@ Your objective is to develop a website according to the following specifications
   2. about
   3. newsletter
 
-####Step 2: Download assets and setup project
+#### Step 2: Download assets and setup project
 
 * Download the attached project-images folder.
 * Use bash in your terminal to move the downloaded images into the images folder in your project (week-one-project/images).
@@ -38,7 +38,7 @@ Your objective is to develop a website according to the following specifications
   * Input Border Bottom: #968772
   * Input Border Bottom (Focus): #967343
   
-####Step 3: Architecting your web site
+#### Step 3: Architecting your web site
 
 * Using semantic markup, write the HTML for all three pages.
   * Home: The home page layout belongs in index.html.
@@ -50,11 +50,11 @@ Your objective is to develop a website according to the following specifications
 
 * Text content is provided in the attached project-text-content folder.
 
-####Step 4: Styling your website
+#### Step 4: Styling your website
 
 Use CSS to style the website according to the provided layouts in the project-layout folder.
 
-####Step 5: Considerations
+#### Step 5: Considerations
 
 * The header/navigation component is always fixed to the top. Contents should scroll behind this component.
 * Navigation links at the top should link to the corresponding pages in your project directory (paths may vary for each .html document).
@@ -66,7 +66,7 @@ Use CSS to style the website according to the provided layouts in the project-la
 * The "Name" input field on the newsletter page should have the type text.
 * The "Email" input field on the newsletter page should have the type email.
 
-####Step 6: Bonus
+#### Step 6: Bonus
 
 * Create and apply a favicon.
 * Use CSS only to make navigation links all caps.
